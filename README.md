@@ -1,3 +1,3 @@
 # Simple Autoclicker 🖱️
 
-Script de automatización en **Python** que realiza pulsaciones automáticas de la tecla `Espacio`.
+A **Python** automation script that performs automatic `Spacebar` presses at regular intervals.
