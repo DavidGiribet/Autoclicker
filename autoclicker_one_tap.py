@@ -5,9 +5,8 @@ import time
 interval = 1
 initialWaitTime = 4
 
-def iniciar():
-    print("--AUTOCLICKER INITIATED--")
-    
+def initiate():
+    print("--ONE TAP AUTOCLICKER INITIATED--")
     time.sleep(initialWaitTime)  
 
     try:
@@ -24,4 +23,4 @@ def iniciar():
         print(f"Unexpected error: {e}")
 
 if __name__ == "__main__":
-    iniciar()
+    initiate()
