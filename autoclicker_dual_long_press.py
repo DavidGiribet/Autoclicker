@@ -12,16 +12,29 @@ def initiate():
 
     try:
         while True:
-            pydirectinput.keyDown('e')
+            pydirectinput.keyDown('left')
             
             for _ in range(int(hold_time * 10)):
                 if keyboard.is_pressed('esc'):
-                    pydirectinput.keyUp('e')
+                    pydirectinput.keyUp('left')
                     print("\nStopping program")
                     return
-                time.sleep(0.2)
+                time.sleep(0.1)
             
-            pydirectinput.keyUp('e')
+            pydirectinput.keyUp('left')
+            time.sleep(release_time)
+
+
+            pydirectinput.keyDown('right')
+            
+            for _ in range(int(hold_time * 10)):
+                if keyboard.is_pressed('esc'):
+                    pydirectinput.keyUp('right')
+                    print("\nStopping program")
+                    return
+                time.sleep(0.1)
+            
+            pydirectinput.keyUp('right')
             time.sleep(release_time)
                 
     except Exception as e:
