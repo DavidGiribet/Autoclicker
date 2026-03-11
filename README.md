@@ -1,3 +1,3 @@
 # Simple Autoclicker 🖱️
 
-A **Python** automation script that performs automatic `Spacebar` presses at regular intervals.
+Diferent **Python** automation scripts that performs automatic keyboard/mouse presses at regular intervals.
